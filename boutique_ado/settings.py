@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fl!=zqm$4prasvfqw8f_le28*pwi6)6u+z0m#7=zm@$a_s+gqs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-linusheinsvig-boutique-oqpuh8zhto2.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['8000-linusheinsvig-boutique-873qg0adqwn.ws-eu100.gitpod.io']
 
 
 
@@ -80,6 +80,8 @@ TEMPLATES = [
         },
     },
 ]
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
